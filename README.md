@@ -9,23 +9,43 @@ This repository will be used for figuring out positive EV for NBA games. Current
 <li>Series Standing - The amount of games +/- that the team has won/loss in the matchup this season</li>
 
 
-<li>Net_Rating - The difference between the teams offensive and defensive rating
-  <ul>
-  <li>if 0.0001-3 then 1</li>
-
-  <li>if 3.0001-7 then 2</li>
-  
-  <li>if 7.0001-max then 3</li>
-    
-  <li> if 0 then 0</li>
-  
-  <li>if 0.0001-(-3) then -1</li>
-  
-  <li>if (-3.0001)-(-7) then -2</li>
-  
-  <li>if (-7.0001)-min then -3</li>
-  </ul>
+<li>Net_Rating - The difference between the teams offensive and defensive rating<br><br>
+  <table>
+  <tr>
+    <th>Net Rating Range</th>
+    <th>Value</th>
+  </tr>
+  <tr>
+    <td>-7.001 to min</td>
+    <td>-3</td>
+  </tr>
+  <tr>
+    <td>-3.001 to -7</td>
+    <td>-2</td>
+  </tr>
+  <tr>
+    <td>-.001 to -3</td>
+    <td>-1</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>.001 to 3</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>3.001 to 7</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>7.001 to max</td>
+    <td>3</td>
+  </tr>
+  </table>
 </li>
+<br>
 
 <li>Last 10 games - the +/- of the teams last 10 games</li>
 
