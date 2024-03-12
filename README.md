@@ -52,5 +52,37 @@ This repository will be used for figuring out positive EV for NBA games. Current
 
 <li>Last 50 games - the +/- of the teams last 50 games</li>
 
-<li>random factor - a factor of .15</li>
+<li>Random Factor - a factor of .15</li>
 </ol>
+<br>
+
+<h1><strong>Weights</strong></h1>
+<p>The algorithm will multiply the attributes value by the associated weight below </p>
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Weight</th>
+  </tr>
+  <tr>
+    <td>Series Standing</td>
+    <td>0.2</td>
+  </tr>
+  <tr>
+    <td>Net Rating</td>
+    <td>0.2</td>
+  </tr>
+  <tr>
+    <td>L10</td>
+    <td>0.2</td>
+  </tr>
+  <tr>
+    <td>L50</td>
+    <td>0.2</td>
+  </tr>
+  <tr>
+    <td>Probability Random Factor</td>
+    <td>0.15</td>
+  </tr>
+
+</table>
+
