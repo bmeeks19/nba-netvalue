@@ -53,6 +53,7 @@ This repository will be used for figuring out positive EV for NBA games. Current
 <li>Last 50 games - the +/- of the teams last 50 games</li>
 
 <li>Random Factor - a factor of .15</li>
+<li>Home Court - there was a study done that the average home team scores 3 more points than the visitor team. For that reason we will add a small home court factor</li>
 </ol>
 <br>
 
@@ -82,6 +83,10 @@ This repository will be used for figuring out positive EV for NBA games. Current
   <tr>
     <td>Probability Random Factor</td>
     <td>0.15</td>
+  </tr>
+  <tr>
+    <td>Home Court Factor</td>
+    <td>.05</td>
   </tr>
 
 </table>
