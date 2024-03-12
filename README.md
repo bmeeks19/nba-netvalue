@@ -7,35 +7,19 @@ Series Standing - The amount of games +/- that the team has won/loss in the matc
 
 Net_Rating - The difference between the teams offensive and defensive rating
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <li>if 0.0001-3 then 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <li>if 0.0001-3 then 1</li>
 
-  if 3.0001-7 then 2
+  <li>if 3.0001-7 then 2</li>
   
-  if 7.0001-max then 3
+  <li>if 7.0001-max then 3</li>
     
-  if 0 then 0
+ <li> if 0 then 0</li>
   
-  if 0.0001-(-3) then -1
+  <li>if 0.0001-(-3) then -1</li>
   
-  if (-3.0001)-(-7) then -2
+  <li>if (-3.0001)-(-7) then -2</li>
   
-  if (-7.0001)-min then -3
-</li>
-
-  if 0.0001-3 then 1
-
-  if 3.0001-7 then 2
-  
-  if 7.0001-max then 3
-    
-  if 0 then 0
-  
-  if 0.0001-(-3) then -1
-  
-  if (-3.0001)-(-7) then -2
-  
-  if (-7.0001)-min then -3
-  
+  <li>if (-7.0001)-min then -3</li>
 
 
 Last 10 games - the +/- of the teams last 10 games
