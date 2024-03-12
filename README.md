@@ -1,4 +1,4 @@
-# nbc-netvalue
+# nba-netvalue
 
 This repository will be used for figuring out positive EV for NBA games. Currently will use below algorithm but could extend further after testing has been done.
 
